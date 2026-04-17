@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "jest",
     "build": "mkdir dist && cp index.js dist/index.js"
   },
   "keywords": [],
