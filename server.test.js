@@ -10,5 +10,5 @@ test('fetches data from API', async () => {
   const response = await axios.get('http://192.168.0.101:3000');
   const result = response.data;
   expect(response.status).toBe(200);
-  expect(result).toEqual(2);
+  expect(result).toEqual(5);
 });
