@@ -4,7 +4,7 @@ const port = 3000;
 
 // Define a route for the root URL
 app.get('/', (req, res) => {
-  res.send(5);
+  res.send(3);
 });
 
 // Start the server and listen on the specified port
